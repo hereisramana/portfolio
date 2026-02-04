@@ -1,0 +1,29 @@
+/* index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-aerogel: #F4F5F9;
+  --color-deep-surface: #1F1F1F;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /* The Futuristic Gradient Upgrade */
+  background: radial-gradient(circle at 50% 0%, #FFFFFF 0%, #F4F5F9 100%);
+  background-attachment: fixed; /* Keeps gradient steady while scrolling */
+  color: #1F1F1F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.02em; /* Gives headings a "designed" look */
+}
+
+/* Modern Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
